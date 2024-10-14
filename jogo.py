@@ -26,7 +26,8 @@ class Jogo:
         self.altura_janela = 650
         self.window = pygame.display.set_mode((self.largura_janela, self.altura_janela))
         self.clock = pygame.time.Clock()
-        
+        self.raposa_principal = pygame.image.load()
+
         # Define as telas
         self.tela_inicial = Tela((0, 0, 0), 0, 1)  # Tela verde
         
