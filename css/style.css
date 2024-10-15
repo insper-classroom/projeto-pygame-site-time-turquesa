@@ -47,9 +47,9 @@ body {
 }
 @font-face {
     font-family: 'MinhaFonte';
-    src: url('fonte/fonte.woff2') format('woff2'),
-         url('fonte/fonte.woff') format('woff'),
-         url('fonte/fonte.ttf') format('truetype');
+    src: url('../fonte/fonte.woff2') format('woff2'),
+         url('../fonte/fonte.woff') format('woff'),
+         url('../fonte/fonte.ttf') format('truetype');
 }
 p{
     font-family: 'MinhaFonte', sans-serif; /* sans-serif como fallback */
