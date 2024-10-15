@@ -5,16 +5,19 @@ body {
     align-items: center;
     background-color: black;
 }
+
 .corpo{
     text-align: center;
-    max-width: 90%;
+    max-width: 71%;
     color: white;
 }
+
 .personagens {
     display: flex;
     justify-content: space-between; /* Espaço entre as imagens */
     gap: 5px; /* Espaçamento entre as imagens */
 }
+
 .personagens img{
     width: 250px;
     height: 220px;
@@ -32,6 +35,7 @@ body {
     justify-content: space-between; /* Espaço entre as imagens */
     gap: 10px; /* Espaçamento entre as imagens */
 }
+
 .inimigos img{
     width: 250px;
     height: 220px;
@@ -42,13 +46,14 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Ajusta as colunas automaticamente */
     gap: 15px;
 }
+
 .Logo {
     display: flex;
     justify-content: center;
     width: 1100px;
     height: 625px;
     margin-bottom: -150px;
-    padding-right: 200px;
+    margin-right: 300px;
     
 }
 @font-face {
@@ -57,6 +62,7 @@ body {
          url('../fonte/fonte.woff') format('woff'),
          url('../fonte/fonte.ttf') format('truetype');
 }
+
 p{
     font-family: 'MinhaFonte', sans-serif; /* sans-serif como fallback */
     font-size: 35px;
@@ -76,11 +82,5 @@ h2, h3, h4 {
     margin-bottom: 90px;
     font-family: 'MinhaFonte', sans-serif; /* sans-serif como fallback */
     font-size: 70px;
-}
-
-
-body {
-    background: linear-gradient(120deg, #000000, #1a1a1a); /* Um gradiente suave para o fundo */
-    color: white;
 }
 
