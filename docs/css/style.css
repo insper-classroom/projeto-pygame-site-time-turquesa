@@ -57,7 +57,7 @@ body {
     border-radius: 0.313rem; 
 
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    grid-template-columns: repeat(auto-fill, minmax(18.75rem, 1fr)); 
     gap: 0.938rem;
 
 }
@@ -78,7 +78,7 @@ body {
     border-radius: 0.313rem; 
 
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    grid-template-columns: repeat(auto-fill, minmax(18.75rem, 1fr)); 
     gap: 0.938rem;
 }
 
