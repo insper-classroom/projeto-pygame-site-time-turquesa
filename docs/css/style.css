@@ -15,26 +15,31 @@ body {
 .personagens {
     margin-top: -30px;  
     display: flex;
-    justify-content: space-between; /* Espaço entre as imagens */
-    gap: 5px; /* Espaçamento entre as imagens */
+    justify-content: space-between; 
+    
+    gap: 5px; 
 }
 
 .mapas {
-    margin-top: 80px;
-    margin-bottom: -140px;  
     display: flex;
-    justify-content: space-between; /* Espaço entre as imagens */
-    gap: 5px; /* Espaçamento entre as imagens */
+    justify-content: space-between; 
+    
+    margin-top: 80px;
+    margin-bottom: -140px; 
+     
+    gap: 5px; 
 }
 
 .mapas img{
     width: 250px;
     height: 220px;
+
     border-color: rgb(255, 255, 255);
     border: 5px solid #333; 
     border-radius: 5px; 
+
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Ajusta as colunas automaticamente */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
     gap: 15px;
 
 }
@@ -46,11 +51,13 @@ body {
 .personagens img{
     width: 250px;
     height: 220px;
+
     border-color: rgb(255, 255, 255);
     border: 5px solid #333; 
     border-radius: 5px; 
+
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Ajusta as colunas automaticamente */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
     gap: 15px;
 
 }
@@ -58,30 +65,35 @@ body {
 .inimigos {
     margin-top: -30px;
     display: flex;
-    justify-content: space-between; /* Espaço entre as imagens */
-    gap: 10px; /* Espaçamento entre as imagens */
+    justify-content: space-between; 
+    gap: 10px;
 }
 
 .inimigos img{
     width: 250px;
     height: 220px;
+
     border-color: rgb(255, 255, 255);
     border: 5px solid #333; 
     border-radius: 5px; 
+
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Ajusta as colunas automaticamente */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
     gap: 15px;
 }
 
 .Logo {
     display: flex;
     justify-content: center;
+
     width: 1100px;
     height: 625px;
+    
     margin-bottom: -150px;
     margin-right: 300px;
     
 }
+
 @font-face {
     font-family: 'MinhaFonte';
     src: url('../fonte/fonte.woff2') format('woff2'),
@@ -90,15 +102,17 @@ body {
 }
 
 p{
-    font-family: 'MinhaFonte', sans-serif; /* sans-serif como fallback */
+    font-family: 'MinhaFonte', sans-serif; 
     font-size: 35px;
 }
 
 h1 {
     letter-spacing: 3px;
     color: rgb(255, 128, 0);
+
     margin-bottom: 90px;
-    font-family: 'MinhaFonte', sans-serif; /* sans-serif como fallback */
+
+    font-family: 'MinhaFonte', sans-serif;
     font-size: 50px;
 }
 
@@ -110,9 +124,11 @@ h1 {
 h2, h3, h4 {
     letter-spacing: 3px;
     color: rgb(255, 128, 0);
+
     margin-bottom: 90px;
     margin-top: 150px;
-    font-family: 'MinhaFonte', sans-serif; /* sans-serif como fallback */
+
+    font-family: 'MinhaFonte', sans-serif; 
     font-size: 70px;
 }
 
