@@ -8,26 +8,21 @@ body {
 
 .corpo{
     text-align: center;
-    max-width: 71%;
+    max-width: 76%;
     color: white;
 }
 
-.personagens {
-    margin-top: -1.875rem;  
-    display: flex;
-    justify-content: space-between; 
-    
-    gap: 0.313rem; 
-}
 
 .mapas {
     display: flex;
     justify-content: space-between; 
     
-    margin-top: 5rem;
-    margin-bottom: -8.75rem; 
+    margin-top: 6rem;
+    margin-bottom: -5.75rem; 
      
-    gap: 0.313rem; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .mapas img{
@@ -36,17 +31,26 @@ body {
 
     border-color: rgb(255, 255, 255);
     border: 0.313rem solid #333; 
-    border-radius: 0.313rem; 
-
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(18.75rem, 1fr)); 
-    gap: 0.938rem;
-
+    border-radius: 0.313rem;    
 }
 
 .descricao {
     margin-top: 11.25rem;
 }
+
+
+.personagens {
+    display: flex;
+    justify-content: space-between; 
+    
+    margin-top: 5rem;
+    margin-bottom: 0rem; 
+     
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
 
 .personagens img{
     width: 15.625rem;
@@ -56,43 +60,29 @@ body {
     border: 0.313rem solid #333; 
     border-radius: 0.313rem; 
 
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(18.75rem, 1fr)); 
-    gap: 0.938rem;
-
 }
 
 .inimigos {
-    margin-top: -1.875rem;
     display: flex;
     justify-content: space-between; 
-    gap: 0.625rem;
+    
+    margin-top: 5rem;
+    margin-bottom: 0rem; 
+     
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
-.inimigos img{
+.inimigos img {
     width: 15.625rem;
     height: 13.75rem;
 
     border-color: rgb(255, 255, 255);
     border: 0.313rem solid #333; 
     border-radius: 0.313rem; 
-
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(18.75rem, 1fr)); 
-    gap: 0.938rem;
 }
 
-.Logo {
-    display: flex;
-    justify-content: center;
-
-    width: 68.75rem;
-    height: 39.063rem;
-
-    margin-bottom: -9.375rem;
-    margin-right: 18.75rem;
-    
-}
 
 @font-face {
     font-family: 'MinhaFonte';
@@ -125,14 +115,38 @@ h2, h3, h4 {
     letter-spacing: 0.188rem;
     color: rgb(255, 128, 0);
 
-    margin-bottom: 5.625rem;
-    margin-top: 9.375rem;
+    margin-bottom: 1.5rem;
+    margin-top: 12rem;
 
     font-family: 'MinhaFonte', sans-serif; 
     font-size: 4.375rem;
 }
 
+h4 {
+    margin-bottom: 5rem;
+}
+
+.Logo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    margin-top: 5rem;
+    margin-bottom: 0rem; 
+    
+}
+
+.Logo img {
+    width: 26,4rem;
+    height: 15rem;
+
+    margin-top: 5rem;
+    margin-bottom: 9rem;
+}
 
 iframe{
-    border:0.031rem #333
+    border:0.028rem #333;
+
+    margin-left: -3rem;
 }
