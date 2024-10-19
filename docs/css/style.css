@@ -1,0 +1,152 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: black;
+}
+
+.corpo{
+    text-align: center;
+    max-width: 76%;
+    color: white;
+}
+
+
+.mapas {
+    display: flex;
+    justify-content: space-between; 
+    
+    margin-top: 6rem;
+    margin-bottom: -5.75rem; 
+     
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.mapas img{
+    width: 15.625rem;
+    height: 13.75rem;
+
+    border-color: rgb(255, 255, 255);
+    border: 0.313rem solid #333; 
+    border-radius: 0.313rem;    
+}
+
+.descricao {
+    margin-top: 11.25rem;
+}
+
+
+.personagens {
+    display: flex;
+    justify-content: space-between; 
+    
+    margin-top: 5rem;
+    margin-bottom: 0rem; 
+     
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+
+.personagens img{
+    width: 15.625rem;
+    height: 13.75rem;
+
+    border-color: rgb(255, 255, 255);
+    border: 0.313rem solid #333; 
+    border-radius: 0.313rem; 
+
+}
+
+.inimigos {
+    display: flex;
+    justify-content: space-between; 
+    
+    margin-top: 5rem;
+    margin-bottom: 0rem; 
+     
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.inimigos img {
+    width: 15.625rem;
+    height: 13.75rem;
+
+    border-color: rgb(255, 255, 255);
+    border: 0.313rem solid #333; 
+    border-radius: 0.313rem; 
+}
+
+
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('../fonte/fonte.woff2') format('woff2'),
+         url('../fonte/fonte.woff') format('woff'),
+         url('../fonte/fonte.ttf') format('truetype');
+}
+
+p{
+    font-family: 'MinhaFonte', sans-serif; 
+    font-size: 2.188rem;
+}
+
+h1 {
+    letter-spacing: 0.188rem;
+    color: rgb(255, 128, 0);
+
+    margin-bottom: 5.625rem;
+
+    font-family: 'MinhaFonte', sans-serif;
+    font-size: 3.125rem;
+}
+
+.previa {
+    margin-top: 9.375rem;
+    margin-bottom: 2.5rem;
+}
+
+h2, h3, h4 {
+    letter-spacing: 0.188rem;
+    color: rgb(255, 128, 0);
+
+    margin-bottom: 1.5rem;
+    margin-top: 12rem;
+
+    font-family: 'MinhaFonte', sans-serif; 
+    font-size: 4.375rem;
+}
+
+h4 {
+    margin-bottom: 5rem;
+}
+
+.Logo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    margin-top: 5rem;
+    margin-bottom: 0rem; 
+    
+}
+
+.Logo img {
+    width: 26,4rem;
+    height: 15rem;
+
+    margin-top: 5rem;
+    margin-bottom: 9rem;
+}
+
+iframe{
+    border:0.028rem #333;
+
+    margin-left: -3rem;
+}
