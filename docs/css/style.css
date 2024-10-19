@@ -6,7 +6,7 @@ body {
     background-color: black;
 }
 
-.corpo{
+.corpo_site{
     text-align: center;
     max-width: 76%;
     color: white;
@@ -30,7 +30,7 @@ body {
     height: 13.75rem;
 
     border-color: rgb(255, 255, 255);
-    border: 0.313rem solid #333; 
+    border: 0.313rem solid #323232; 
     border-radius: 0.313rem;    
 }
 
@@ -57,7 +57,7 @@ body {
     height: 13.75rem;
 
     border-color: rgb(255, 255, 255);
-    border: 0.313rem solid #333; 
+    border: 0.313rem solid #323232; 
     border-radius: 0.313rem; 
 
 }
@@ -79,7 +79,7 @@ body {
     height: 13.75rem;
 
     border-color: rgb(255, 255, 255);
-    border: 0.313rem solid #333; 
+    border: 0.313rem solid #323232; 
     border-radius: 0.313rem; 
 }
 
