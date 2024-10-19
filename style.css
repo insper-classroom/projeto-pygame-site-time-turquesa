@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+}
+.corpo{
+    color: white;
+    text-align: center;
+}
+.personagens {
+    display: flex;
+    justify-content: space-between; /* Espaço entre as imagens */
+    gap: 10px; /* Espaçamento entre as imagens */
+}
+.personagens img{
+    width: 350px;
+    height: 320px;
+    border-color: rgb(255, 255, 255);
+    border: 5px solid #333; 
+    border-radius: 5px; 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Ajusta as colunas automaticamente */
+    gap: 15px;
+
+}
+
+.inimigos {
+    display: flex;
+    justify-content: space-between; /* Espaço entre as imagens */
+    gap: 10px; /* Espaçamento entre as imagens */
+}
+.inimigos img{
+    width: 350px;
+    height: 320px;
+    border-color: rgb(255, 255, 255);
+    border: 5px solid #333; 
+    border-radius: 5px; 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Ajusta as colunas automaticamente */
+    gap: 15px;
+}
+.Logo {
+    display: flex;
+    justify-content: center;
+    width: 1500px;
+    height: 850px;
+    margin-bottom: -150px;
+    
+}
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('fonte/fonte.woff2') format('woff2'),
+         url('fonte/fonte.woff') format('woff'),
+         url('fonte/fonte.ttf') format('truetype');
+}
+p{
+    font-family: 'MinhaFonte', sans-serif; /* sans-serif como fallback */
+    font-size: 50px;
+}
+
+h1, h2, h3, h4 {
+    letter-spacing: 3px;
+    color: rgb(255, 128, 0);
+    margin-bottom: 90px;
+    font-family: 'MinhaFonte', sans-serif; /* sans-serif como fallback */
+    font-size: 50px;
+}
+body {
+    background: linear-gradient(120deg, #000000, #1a1a1a); /* Um gradiente suave para o fundo */
+    color: white;
+}
