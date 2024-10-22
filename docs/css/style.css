@@ -8,7 +8,7 @@ body {
 
 .corpo_site{
     text-align: center;
-    max-width: 76%;
+    max-width: 80%;
     color: white;
 }
 
@@ -35,7 +35,14 @@ body {
 }
 
 .descricao {
-    margin-top: 11.25rem;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+}
+
+.descricao 
+p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 
@@ -126,7 +133,7 @@ h4 {
     margin-bottom: 5rem;
 }
 
-.Logo {
+.imagem_principal {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -137,7 +144,8 @@ h4 {
     
 }
 
-.Logo img {
+.imagem_principal 
+img {   
     width: 26,4rem;
     height: 15rem;
 
