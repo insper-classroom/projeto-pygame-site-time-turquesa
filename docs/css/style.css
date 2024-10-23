@@ -3,19 +3,30 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 .corpo_site{
-    text-align: center;
-    max-width: 80%;
+    max-width: 50%;
     color: white;
+    margin-left: 0rem;
+    margin-right: 0rem;
 }
 
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+
+}
 
 .mapas {
     display: flex;
     justify-content: space-between; 
+    flex-direction: column;
+    text-align: center;
+
     
     margin-top: 6rem;
     margin-bottom: -5.75rem; 
@@ -26,7 +37,7 @@ body {
 }
 
 .mapas img{
-    width: 16.5rem;
+    width: 18rem;
     height: 13.75rem;
 
     border-color: rgb(255, 255, 255);
@@ -35,20 +46,25 @@ body {
 }
 
 .descricao {
-    margin-top: 3rem;
+    margin-top: 4rem;
     margin-bottom: 10rem;
 }
 
 .descricao 
 p {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    justify-content: left;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
 }
 
 
 .personagens {
+
     display: flex;
     justify-content: space-between; 
+    flex-direction: column;
+    text-align: center;
+
     
     margin-top: 5rem;
     margin-bottom: 0rem; 
@@ -70,9 +86,13 @@ p {
 }
 
 .inimigos {
+
     display: flex;
     justify-content: space-between; 
-    
+
+    flex-direction: column;
+
+
     margin-top: 5rem;
     margin-bottom: 0rem; 
      
@@ -88,6 +108,16 @@ p {
     border-color: rgb(255, 255, 255);
     border: 0.313rem solid #323232; 
     border-radius: 0.313rem; 
+}
+
+.Inimigo1, .Inimigo2, .Inimigo3, .Inimigo4,
+.mapa1, .mapa2, .mapa3, .mapa4, 
+.Rapsoa1, .Raposa2, .Raposa3, .Raposa4 {
+    display:flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+
 }
 
 
@@ -118,7 +148,9 @@ h1 {
     margin-bottom: 2.5rem;
 }
 
-h2, h3, h4 {
+h2, h3 {
+    text-align: center;
+
     letter-spacing: 0.188rem;
     color: rgb(255, 128, 0);
 
@@ -129,9 +161,6 @@ h2, h3, h4 {
     font-size: 4.375rem;
 }
 
-h4 {
-    margin-bottom: 5rem;
-}
 
 .imagem_principal {
     display: flex;
@@ -156,5 +185,79 @@ img {
 iframe{
     border:0.028rem #333;
 
-    margin-left: -3rem;
+    margin-left: -2rem;
+}
+
+.download_descricao {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 13rem;
+}
+    
+.download_descricao 
+p {
+    font-family: 'MinhaFonte', sans-serif;
+    margin: 0.6rem
+}
+
+.download_descricao 
+.sub {
+    margin-top: 0.2rem;
+    margin-bottom: 3rem;
+    text-align: center  ;
+    text-align: center;
+
+    letter-spacing: 0.188rem;
+    color: rgb(255, 128, 0);
+
+    font-family: 'MinhaFonte', sans-serif; 
+    font-size: 4.375rem;
+}
+
+.download {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+
+a { 
+    font-family: 'MinhaFonte', sans-serif;
+    font-size: 4.375rem;
+    color: rgb(0,0,0);
+    text-decoration: none;
+    
+    border: 0.5rem solid rgb(255, 128, 0);
+    border-radius: 0.5rem;
+
+    margin: 5rem;
+    padding: 0.3rem;
+    background-color: rgb(255, 128, 0);
+    
+}
+
+
+h4 {
+    display:flex;
+    flex-direction: column  ;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.188rem;
+    color: rgb(255, 128, 0);
+
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+
+    font-family: 'MinhaFonte', sans-serif; 
+    font-size: 7rem;
+}
+
+h5 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+
 }
