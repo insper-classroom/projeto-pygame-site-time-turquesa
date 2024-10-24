@@ -185,7 +185,7 @@ img {
 iframe{
     border:0.028rem #333;
 
-    margin-left: -2rem;
+    margin-left: -3rem;
 }
 
 .download_descricao {
@@ -260,4 +260,23 @@ h5 {
     align-items: center;
     margin: 2rem;
 
+}
+
+.log {
+    font-size: 5rem;
+    padding-top: -5rem;
+}
+
+.log 
+p {
+    padding-left: 2rem;
+    padding-bottom: 0.3rem;
+    padding-top: -0.9rem;
+}
+
+.development {
+    margin-top: 1.5em;
+    background-color: rgb(110, 109, 109);
+    border: 0.2rem solid rgb(60, 60, 60);
+    border-radius: 0.5rem;
 }
